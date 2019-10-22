@@ -1,0 +1,5 @@
+﻿<Properties>
+  <WatchEntry0 value="dayName" />
+  <WatchEntry1 value="businessDateActual" />
+  <WatchEntry2 value="businessDateExpected" />
+</Properties>

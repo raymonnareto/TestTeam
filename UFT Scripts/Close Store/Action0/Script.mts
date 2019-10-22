@@ -1,0 +1,1 @@
+﻿RunAction "Close Store", oneIteration

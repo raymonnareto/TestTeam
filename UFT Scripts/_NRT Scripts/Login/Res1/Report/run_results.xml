@@ -1,0 +1,338 @@
+<?xml version="1.0"?>
+<Results version="1.0">
+<ReportNode type="testrun">
+<ReportNode type="Step">
+<Data>
+    <Name>Add-in(s) not activated</Name>
+    <Description>The following add-in(s) were associated with your test, but are not currently loaded: 
+Mobile, VisualBasic.</Description>
+    <StartTime>2019-10-11 12:27:43</StartTime>
+    <Result>Warning</Result>
+    <Extension>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Iteration">
+<ReportNode type="Action">
+<ReportNode type="Step">
+<Data>
+    <Name>[ Xstore ].Exist</Name>
+    <Description>"Object exists"</Description>
+    <StartTime>2019-10-11 12:27:46</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaDialog</Type>
+            <Name><![CDATA[[ Xstore ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Exist</Operation>
+        <OperationData><![CDATA["Object exists"]]></OperationData>
+      </TestObject>
+      <IconKey>0091e54f34ff4dfeb0f4932d85182d9e</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>txtAuthentication.Exist</Name>
+    <Description>"Object does not exist"</Description>
+    <StartTime>2019-10-11 12:27:56</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Automation\Applications\Xstore\Object Repository\Xstore_OR.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>JavaDialog</Type>
+            <Name><![CDATA[Login]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaEdit</Type>
+            <Name><![CDATA[txtAuthentication]]></Name>
+          </Object>
+        </Path>
+        <Operation>Exist</Operation>
+        <OperationData><![CDATA["Object does not exist"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaEdit]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[attached text]]></Name>
+            <Value><![CDATA[Authentication]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>f2427aaa1cf74e8daa675f82b2c9ff8a</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Login</Name>
+    <Description>JavaDialog</Description>
+    <StartTime>2019-10-11 12:27:56</StartTime>
+    <Duration>0</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Automation\Applications\Xstore\Object Repository\Xstore_OR.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>JavaDialog</Type>
+            <Name><![CDATA[Login]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[JavaDialog]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaDialog]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[title]]></Name>
+            <Value><![CDATA[Xstore]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>0091e54f34ff4dfeb0f4932d85182d9e</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Type mismatch: 'Func_CloseXstore'</Name>
+    <ErrorText>Type mismatch: 'Func_CloseXstore'</ErrorText>
+    <Description>&lt;BR/&gt;Line (30): &amp;quot;Call Func_CloseXstore(&amp;quot;C:\xstore\tmp&amp;quot;)&amp;quot;.</Description>
+    <StartTime>2019-10-11 12:27:56</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[Login]]></ModuleName>
+          <FileName><![CDATA[Login]]></FileName>
+          <Language><![CDATA[VBScript - script block]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[Call Func_CloseXstore("C:\xstore\tmp")]]></Scripts>
+          <LineNo><![CDATA[30]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <IconKey>3865a9d3370b4ceb89348cc15b7a6ee7</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<Data>
+    <Name>Xenvironment</Name>
+    <Description>JavaDialog</Description>
+    <StartTime>2019-10-11 12:28:26</StartTime>
+    <Result>Warning</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Automation\Applications\Xstore\Object Repository\Xstore_OR.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>JavaDialog</Type>
+            <Name><![CDATA[Xenvironment]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[JavaDialog]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaDialog]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[title]]></Name>
+            <Value><![CDATA[Xenvironment]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>0091e54f34ff4dfeb0f4932d85182d9e</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>btnStartPos.Click</Name>
+    <ErrorText>Cannot find the "btnStartPos" object's parent "Xenvironment" (class JavaDialog).
+Verify that parent properties match an object currently displayed in your application.</ErrorText>
+    <Description>Cannot&amp;nbsp;find&amp;nbsp;the&amp;nbsp;"btnStartPos"&amp;nbsp;object's&amp;nbsp;parent&amp;nbsp;"Xenvironment"&amp;nbsp;(class&amp;nbsp;JavaDialog).&lt;br/&gt;Verify&amp;nbsp;that&amp;nbsp;parent&amp;nbsp;properties&amp;nbsp;match&amp;nbsp;an&amp;nbsp;object&amp;nbsp;currently&amp;nbsp;displayed&amp;nbsp;in&amp;nbsp;your&amp;nbsp;application.&lt;br/&gt;&lt;br/&gt;Object's physical description:&lt;br&gt;to_class = JavaDialog&lt;br&gt;Title = Xenvironment&lt;br&gt;</Description>
+    <StartTime>2019-10-11 12:28:26</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[Login]]></ModuleName>
+          <FileName><![CDATA[Login]]></FileName>
+          <Language><![CDATA[VBScript - script block]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[JavaDialog("Xenvironment").JavaButton("btnStartPos").Click]]></Scripts>
+          <LineNo><![CDATA[34]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <TestObject>
+        <Repository>C:\Automation\Applications\Xstore\Object Repository\Xstore_OR.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>JavaDialog</Type>
+            <Name><![CDATA[Xenvironment]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaButton</Type>
+            <Name><![CDATA[btnStartPos]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <OperationData><![CDATA["LEFT"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[toolkit class]]></Name>
+            <Value><![CDATA[dtv.env.ui.menu.key.EnvImageButton]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaButton]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[attached text]]></Name>
+            <Value><![CDATA[F7]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>599f35a8018946b781b15d664f3aeed1</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Stop Run</Name>
+    <Description>Run stopped by user.</Description>
+    <StartTime>2019-10-11 12:28:33</StartTime>
+    <Result>Information</Result>
+    <Extension>
+      <IconKey>0bfdd10ccf7e460e9162c8b234dc6ca0</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Xenvironment</Name>
+    <Description>JavaDialog</Description>
+    <StartTime>2019-10-11 12:28:26</StartTime>
+    <Duration>7</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Automation\Applications\Xstore\Object Repository\Xstore_OR.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>JavaDialog</Type>
+            <Name><![CDATA[Xenvironment]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[JavaDialog]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaDialog]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[title]]></Name>
+            <Value><![CDATA[Xenvironment]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>0091e54f34ff4dfeb0f4932d85182d9e</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Login</Name>
+    <Description />
+    <StartTime>2019-10-11 12:27:45</StartTime>
+    <Duration>48</Duration>
+    <Result>Failed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>1ac2dc042dc3479ab3c72bac074d340f</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action0</Name>
+    <Description />
+    <StartTime>2019-10-11 12:27:44</StartTime>
+    <Duration>49</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <IconKey>e37c9c858f9b4dc5b8743336419e67f3</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Index>1</Index>
+    <TestedApplications>
+      <TestedApplication>
+        <RuntimeEngineInfo />
+        <Name>C:\xstore\xstore.exe</Name>
+        <Path>C:\xstore</Path>
+        <Version />
+        <AdditionalInfos>
+          <Info />
+        </AdditionalInfos>
+      </TestedApplication>
+    </TestedApplications>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Login</Name>
+    <ToolName>HPE Unified Functional Testing</ToolName>
+    <ToolVersion>14.03</ToolVersion>
+    <Description />
+    <StartTime>2019-10-11 12:27:39</StartTime>
+    <Duration>54</Duration>
+    <Result>Failed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>9d318cb68db84ad1bddcb53429516d69</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Environment>
+      <Timezone>+08:00:00</Timezone>
+      <Locale>English (United States)</Locale>
+      <User>DIR\anthony.r.c.austria</User>
+      <CpuInfo>Intel(R) Core(TM) i3-6100T CPU @ 3.20GHz</CpuInfo>
+      <NumberOfCores>4</NumberOfCores>
+      <TotalMemory>8076</TotalMemory>
+      <HostName>dir.svc.accenture.com\KRNG-9S3YCK2-DX</HostName>
+      <OSInfo>Windows 10</OSInfo>
+    </Environment>
+    <TestedApplications />
+    <Links>
+      <Link type="DataTable" reference="Default.xls" displayname="Default Data Table" />
+    </Links>
+  </Data>
+</ReportNode>
+<GeneralInfo>
+    <ResultName>Res1</ResultName>
+    <RunStartTime>2019-10-11 12:27:39</RunStartTime>
+    <Timezone>+08:00:00</Timezone>
+    <OrchestrationToolName>HPE Unified Functional Testing</OrchestrationToolName>
+    <OrchestrationToolVersion>14.03</OrchestrationToolVersion>
+  </GeneralInfo>
+</Results>

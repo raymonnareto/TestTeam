@@ -1,0 +1,9 @@
+﻿<Properties>
+  <WatchEntry0 value="loginType" />
+  <WatchEntry1 value="userName" />
+  <WatchEntry2 value="var1" />
+  <WatchEntry3 value="Environment(&quot;loginType&quot;)" />
+  <WatchEntry4 value="Environment(&quot;mainmenuitem&quot;)" />
+  <WatchEntry5 value="Environment(&quot;stepnum&quot;)" />
+  <WatchEntry6 value="strScreenshotFileName" />
+</Properties>

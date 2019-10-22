@@ -1,0 +1,1 @@
+﻿var __testDataSource={items:[{dataFilePath:'Default.xls',dataFileFormat:'excel',dataFileFolder:'C:\\Automation\\Applications\\Xstore\\UFT Scripts\\TS_003_Run Customer Lookup\\Res1',namePairs:[]}]};

@@ -1,0 +1,120 @@
+<?xml version="1.0"?>
+<Results version="1.0">
+<ReportNode type="testrun">
+<ReportNode type="Iteration">
+<ReportNode type="Action">
+<ReportNode type="Step">
+<Data>
+    <Name>Parameter not found. (Exception from HRESULT: 0x80020004 (DISP_E_PARAMNOTFOUND))</Name>
+    <ErrorText>Parameter not found. (Exception from HRESULT: 0x80020004 (DISP_E_PARAMNOTFOUND))</ErrorText>
+    <Description>&lt;BR/&gt;Line (2): &amp;quot;intStartRow = TestArgs(&amp;quot;intStartRow&amp;quot;)&amp;quot;.</Description>
+    <StartTime>2019-10-09 15:30:44</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[1.1 XStore Login]]></ModuleName>
+          <FileName><![CDATA[1.1 XStore Login]]></FileName>
+          <Language><![CDATA[1.1 XStore Login]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[intStartRow = TestArgs("intStartRow")]]></Scripts>
+          <LineNo><![CDATA[2]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <IconKey>de8563f6211f4f708a981ae177334530</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Stop Run</Name>
+    <Description>Run stopped by user.</Description>
+    <StartTime>2019-10-09 15:30:58</StartTime>
+    <Result>Information</Result>
+    <Extension>
+      <IconKey>cadf366ce00d404b94e316c40fe498a1</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>1.1 XStore Login</Name>
+    <Description />
+    <StartTime>2019-10-09 15:30:44</StartTime>
+    <Duration>14</Duration>
+    <Result>Failed</Result>
+    <InputParameters>
+      <Parameter name="intStartRow" value="1" type="System.Double" />
+      <Parameter name="intEndRow" value="1" type="System.Double" />
+    </InputParameters>
+    <Extension>
+      <IconKey>3d9232083dfc4be7852e8c8330dec522</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action0</Name>
+    <Description />
+    <StartTime>2019-10-09 15:30:43</StartTime>
+    <Duration>15</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <IconKey>7f5d0f2b05d440098297b6d3812330e3</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Index>1</Index>
+    <TestedApplications />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Stop Run</Name>
+    <Description>Run stopped by user.</Description>
+    <StartTime>2019-10-09 15:30:58</StartTime>
+    <Result>Information</Result>
+    <Extension>
+      <IconKey>5e2fcf2f00d44c3b99169ddaa6222845</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>NRT_01.01_XStore Login</Name>
+    <ToolName>HPE Unified Functional Testing</ToolName>
+    <ToolVersion>14.03</ToolVersion>
+    <Description />
+    <StartTime>2019-10-09 15:30:42</StartTime>
+    <Duration>16</Duration>
+    <Result>Failed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>c4400986554840a6840ee6fba272e80a</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Environment>
+      <Timezone>+08:00:00</Timezone>
+      <Locale>English (United States)</Locale>
+      <User>DIR\anthony.r.c.austria</User>
+      <CpuInfo>Intel(R) Core(TM) i3-6100T CPU @ 3.20GHz</CpuInfo>
+      <NumberOfCores>4</NumberOfCores>
+      <TotalMemory>8076</TotalMemory>
+      <HostName>dir.svc.accenture.com\KRNG-9S3YCK2-DX</HostName>
+      <OSInfo>Windows 10</OSInfo>
+    </Environment>
+    <TestedApplications />
+    <Links>
+      <Link type="DataTable" reference="Default.xls" displayname="Default Data Table" />
+    </Links>
+  </Data>
+</ReportNode>
+<GeneralInfo>
+    <ResultName>Res2</ResultName>
+    <RunStartTime>2019-10-09 15:30:42</RunStartTime>
+    <Timezone>+08:00:00</Timezone>
+    <OrchestrationToolName>HPE Unified Functional Testing</OrchestrationToolName>
+    <OrchestrationToolVersion>14.03</OrchestrationToolVersion>
+  </GeneralInfo>
+</Results>

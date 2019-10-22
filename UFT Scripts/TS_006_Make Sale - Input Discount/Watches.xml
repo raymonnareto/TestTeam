@@ -1,0 +1,5 @@
+﻿<Properties>
+  <WatchEntry0 value="listItemCountInitial" />
+  <WatchEntry1 value="itemCountExpected" />
+  <WatchEntry2 value="listItemCountAfterDiscount" />
+</Properties>

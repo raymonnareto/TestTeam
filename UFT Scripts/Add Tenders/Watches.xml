@@ -1,0 +1,8 @@
+﻿<Properties>
+  <WatchEntry0 value="val" />
+  <WatchEntry1 value="getRemainingValue" />
+  <WatchEntry2 value="splitGetRemainingValue" />
+  <WatchEntry3 value="splitGetRemainingValue1" />
+  <WatchEntry4 value="splitGetRemainingValue2" />
+  <WatchEntry5 value="remainingValue" />
+</Properties>

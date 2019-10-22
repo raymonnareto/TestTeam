@@ -1,0 +1,1 @@
+﻿var __testDataSource={items:[{dataFilePath:'Default.xls',dataFileFormat:'excel',dataFileFolder:'C:\\Automation\\Applications\\Xstore\\UFT Scripts\\_NRT Scripts\\Login\\Res1',namePairs:[]}]};
